@@ -1,0 +1,116 @@
+body {
+	background-color: #E4DCCF;
+}
+
+.logo  {
+	font-size: 50px;
+	font-weight: 800px;
+	background: #355764;
+	font-family: forte;
+	margin-top: 20px;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	height: 15vh;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background: #355764;;
+}
+
+nav .menu ul {
+	list-style-type: none;
+	margin: auto;
+	margin-top: -.5em;
+	padding: 0;
+	overflow: hidden;	
+}
+
+nav .menu ul li {
+	font-size: 25px;
+}
+
+nav .menu ul li {
+	float: left;
+}
+
+nav .menu ul li a {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+
+}
+
+nav .menu ul li a:hover {
+	text-decoration: underline;
+	background-color: #9ED2C6;
+	border-radius: 10px;
+}
+
+.read p {
+	font-size: 20px;
+	font-family: bodoni bk bt;
+	text-align: justify;
+}
+
+li {
+	font-size: 22px;
+	font-family: bodoni bk bt;
+	margin-top: 50px;
+}
+
+.judul {
+	text-decoration: underline;
+	font-size: 23px;
+	font-family: times new roman;
+	margin-top: 60px;
+	margin-left: 30px;
+}
+
+.bck {
+	background: #AEDBCE;
+	border-radius: 20px;
+	padding: 15px 35px 15px 35px;
+	color: #000;
+	cursor: pointer;
+	font-weight: bold;
+	position: absolute;
+	left: 53%;
+	transform: translate(-80%, -53%);
+	margin-bottom: 100px;
+	box-shadow: 0px 1px 8px #000;
+	margin-top: 200px;
+}
+
+ .bck:hover {
+	box-shadow: 0px 1px 18px #ffffff;
+	border-radius: 15px;
+}
+.ucap {
+	margin-left: 500px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.download-btn {
+	background-color: #6E85B7;
+	margin-top: 400px;
+	margin-left: 650px;
+	color: white;
+	padding: 1rem 2rem;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 15px;
+	box-shadow: #000;
+}
+
+.download-btn:hover {
+	box-shadow: 0px 1px 18px #ffffff;
+	border-radius: 15px;
+}

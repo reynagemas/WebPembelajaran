@@ -1,0 +1,146 @@
+body {
+	background-color: #E4DCCF;
+}
+
+.wrapper {
+ width: 1100px;
+ margin: auto;
+ position: relative;
+}
+
+.logo  {
+	font-size: 50px;
+	font-weight: 800px;
+	float: left;
+	background: #355764;
+	font-family: forte;
+
+}
+
+.menu {
+	float: right;
+
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	height: 15vh;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background: #355764;;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: auto;
+	margin-top: 20px;
+	padding: 0;
+	overflow: hidden;
+	font-size: 22px;	
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+	background-color: #9ED2C6;
+	border-radius: 10px;
+}
+.header2 {
+	font-family: times new romans;
+	text-decoration: underline;
+}
+
+.bab2 {
+	margin-top: 50px;
+	font-size: 22px;
+	font-family: bodoni bk bt;
+}
+
+.gambar {
+	margin-left: 400px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.penjelasan {
+	margin-top: 85px;
+	font-size: 22px;
+}
+
+.try p {
+	font-size: 18px;
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 30px;
+}
+
+.try input {
+	padding: 15px 35px 15px 35px;
+	margin-left: 650px;
+}
+
+.kosakata p {
+	text-decoration: bold;
+	margin-left: 120px;
+	margin-top: 60px;
+}
+
+.kosakata ol li {
+	margin-left: 120px;
+}
+
+.kosokata {
+	margin-bottom: 200px;
+}
+
+.bck {
+	background: #AEDBCE;
+	border-radius: 20px;
+	padding: 15px 35px 15px 35px;
+	color: #000;
+	cursor: pointer;
+	font-weight: bold;
+	position: absolute;
+	left: 53%;
+	transform: translate(-80%, -53%);
+	margin-bottom: 100px;
+	margin-top: 140px;
+	box-shadow: 0px 1px 8px #000;
+}
+
+.bck:hover {
+	box-shadow: 0px 1px 18px #ffffff;
+	border-radius: 15px;
+}
+.download-btn {
+	background-color: #6E85B7;
+	margin-top: 400px;
+	margin-left: 650px;
+	color: white;
+	padding: 1rem 2rem;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 15px;
+	box-shadow: #000;
+}
+
+.download-btn:hover {
+	box-shadow: 0px 1px 18px #ffffff;
+	border-radius: 15px;
+}

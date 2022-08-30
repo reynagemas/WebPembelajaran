@@ -1,0 +1,45 @@
+body {
+	background-color: #E4DCCF;
+}
+
+header {
+	text-align: center;
+	font-family: forte;
+	font-size: 32px;
+	margin-top: 40px;
+}
+
+h3 {
+	margin-top: 40px;
+}
+
+.tbl-bck {
+	background: #AEDBCE;
+	border-radius: 20px;
+	padding: 15px 35px 15px 35px;
+	color: #000;
+	cursor: pointer;
+	font-weight: bold;
+	position: absolute;
+	left: 53%;
+	transform: translate(-80%, -53%);
+	margin-top: 100px;
+}
+
+.tatacara {
+	font-size: 18px;
+}
+
+.ytb {
+	margin-left: 20px;
+	color: black;
+	padding: 5px 10px 5px 10px;
+}
+
+.jenis img {
+	margin-left: 480px;
+}
+
+.jenis {
+	font-size: 18px;
+}

@@ -1,0 +1,124 @@
+* {margin:0; padding: 0;
+	list-style: none; 
+	text-decoration: none;}
+
+body {
+	background-color: #D6EFED;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #E4DCCF;
+	font-family: bodoni bd bt, book antiaqua, arial;
+}
+header {
+	font-size: 22px;
+	text-align: center;
+	font-family: cooper black;
+	background-color: #576F72;
+	line-height: 70px;
+}
+nav	{
+	background-color: #7D9D9C;
+	width: 240px;
+	height: 100%;
+	position: absolute;
+	margin: auto;
+	border-radius: 5px;
+}
+
+nav ul {
+	list-style: none;
+	margin-top: 25px;
+	box-sizing: border-box;
+	line-height: 40px;
+}
+
+nav ul li a {
+	float: left;
+	width: 150px;
+	display: block;
+	text-align: left;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-top: 50px;
+	padding-left: 40px;
+	border-bottom: 2px solid rgba(255, 255, 255, .6);
+}
+
+nav ul li a:hover {
+	background-color: #F0EBE3;
+	display: block;
+	width: 190px;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+
+nav ul ul {
+	display: none;
+	list-style: none;
+	position: absolute;
+	background-color: #7D9D9C;
+	left: 230px;
+	top: 150px;
+	width: 250px;
+	z-index: 1;
+}
+
+nav ul ul li a {
+	float: none;
+	display: block;
+	padding-left: 20px;
+	text-align: left;
+	width: 200px;
+	border-radius: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+nav ul ul li a:hover {
+	color: blueviolet;
+}
+
+.greet {
+	text-align: center;
+	font-family: forte;
+	padding-top: 30px;
+	padding-left: 120px;
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+img {
+	margin-left: 250px;
+	position: fixed;
+
+}
+
+.berbicara {
+	padding-top: 50px;
+	font-size: 17px;
+	font-family: clarendon bt;
+	margin-left: 500px;
+	text-align: left;
+	margin-top: 15px;
+}
+
+.awalan {
+	padding-top: 80px;
+	font-size: 17px;
+	font-family: clarendon bt;
+	margin-left: 560px;
+	text-align: left;
+	word-spacing: 8px;
+}
